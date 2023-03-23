@@ -1,0 +1,20 @@
+# Installation:
+
+pip install pandas numpy matplotlib seaborn PyVCF
+
+python genomic_variant_tool.py -i input.vcf -o output.png -r region.bed
+
+genomic_variant_tool/
+|-- genomic_variant_tool.py
+|-- filters.py
+|-- statistics.py
+|-- visualization.py
+|-- README.md
+|-- test/
+|   |-- test_vcf.py
+|   |-- test_filters.py
+|   |-- test_statistics.py
+|   |-- test_visualization.py
+|   |-- data/
+|       |-- example_input.vcf
+|       |-- example_output.png
